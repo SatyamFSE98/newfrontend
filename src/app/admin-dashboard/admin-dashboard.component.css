@@ -1,0 +1,47 @@
+.container {
+    margin-top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://wallpaperaccess.com/full/1512237.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.avatar-circle {
+    width: 45px;
+    height: 45px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initials {
+    text-transform: uppercase;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #f9f9f9;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-body .btn {
+    margin-top: 10px;
+}

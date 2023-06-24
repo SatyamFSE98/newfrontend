@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/2495962.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+form[_ngcontent-ng-c1959863610][_ngcontent-ng-c1959863610] {
+  width: 350px;
+  height: 500px;
+  padding: 30px;
+  background-color: rgb(0 0 0 / 44%);
+  border-radius: 5px;
+  color: floralwhite;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1[_ngcontent-ng-c1959863610] {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #29d59f;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+}
+
+p[_ngcontent-ng-c1959863610] {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label[_ngcontent-ng-c1959863610] {
+  font-weight: bold;
+  color: #cbf00d;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ffffff;
+  border-color: #a9a9a9;
+  outline: none;
+}
+
+.login-btn {
+  background-color: #29d59f;
+  color: #ffffff;
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #ff3333;
+}
+
+.sign-up {
+  text-align: center;
+  color: #666666;
+}
+
+.sign-up a {
+  color: #ff4c4c;
+  text-decoration: none;
+}
